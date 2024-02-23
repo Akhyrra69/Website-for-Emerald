@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+background-color: #EFBBCC;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+ header {
+            background-color: #A7D67D;
+            font-family: fantasy;
+            color: black;
+            padding: 3px;
+            text-align: center;
+	    font-size: 18px;
+
+}
+.pic {
+width: 8%;
+height: 13%;
+float: left;
+}
+
+.did {
+text-align: center;
+}
+
+        nav {
+            background-color: #54AC68;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            font-family: fantasy;
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #B1E2C1;
+        }
+
+        .dropdown-content {
+            font-family: fantasy;
+            display: none;
+            position: absolute;
+            background-color:  #54AC68;
+            min-width: 160px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            font-family: fantasy;
+            background-color: #ACC9B2;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        footer {
+            background-color: #01A368;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+<img src="K.png" class="pic">
+        <h1>8-Emerald 2023</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/noob%204.0%20p2.html">Home</a></li>
+            <li class="dropdown">
+                <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/noob%20idkk%20but%20continue%20p2.html">Categories</a>
+                <div class="dropdown-content">
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%205.html">Adviser & Co-adviser</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%206.html">Students</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%207.html">Schedule</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%209.html">Subject & Teachers</a>
+                </div>
+            </li>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%203.html">Contact</a></li>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/ok%20p3%20feeback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Feedback Form</h2>
+        <form action="mailto:akhyrrarusseljuansacdal@gmail.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+<br><br><br><br><br><br>
+    <footer>
+    <nav>
+        <ul>
+            <li><a href="https://web.facebook.com/profile.php?id=61550501432897">Facebook</a></li>
+            <li><a href="https://www.instagram.com/akhyrrarussel?igsh=MXIzMGwwYXJ2bnZobA==">Instagram</a></li>
+            <li><a href="https://twitter.com/AkhyrraJ74901/status/1761027793960509935?t=x825iqXPP7Vv4bOVI6vAjQ&s=19">X</a></li>
+            <li><a href="https://vm.tiktok.com/ZMMewrdkW/">Tiktok</a></li>
+        </ul>
+    </nav>
+        <p><b>&copy; 2024 Unique Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unique Website</title>
+<link rel="icon" href="" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+	    align: center;
+background-color: #EFBBCC;
+        }
+
+        header {
+            background-color: #A7D67D;
+            font-family: fantasy;
+            color: black;
+            padding: 3px;
+            text-align: center;
+	    font-size: 18px;
+
+}
+
+.did {
+text-align: center;
+float: left
+}
+
+.dik {
+text-align: center;
+float: right;
+}
+
+        nav {
+            background-color: #54AC68;
+            padding: 2px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            font-family: fantasy;
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #B1E2C1;
+        }
+
+        .dropdown-content {
+            font-family: fantasy;
+            display: none;
+            position: absolute;
+            background-color:  #54AC68;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            font-family: fantasy;
+            background-color: #ACC9B2;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+
+        footer {
+            background-color: #01A368;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+h {
+    font-size: xx-large;
+}
+
+.flip-card {
+  width: 390px;
+  height: 390px;
+  perspective: 250px;
+  display: inline-block;
+  margin: 10px; 
+margin-left: 250px;
+margin-right: 50px;
+}
+
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+position: center;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+     margin-right: 0;
+  color: red;
+}
+
+.flip-card-back {
+background-image: url("intro.jpg");
+background-size: cover;
+     background-position: center;
+  color: White;
+  transform: rotateY(180deg);
+    font-size: 35px;
+font-family: monospace;
+}
+
+.flip-cards {
+  width: 390px;
+  height: 390px;
+  perspective: 250px;
+  display: inline-block;
+  margin: 10px; 
+}
+
+.flip-card-front img {
+width: 100%;
+height: 100%;
+}
+
+.flip-card-fronts img {
+width: 100%;
+height: 100%;
+}
+
+.flip-card-inners {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.pic {
+width: 8%;
+height: 13%;
+float: left;
+}
+
+.flip-cards:hover .flip-card-inners {
+  transform: rotateY(180deg);
+
+}
+
+.flip-card-fronts, .flip-card-backs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-fronts {
+     margin-right: 0;
+  color: White;
+}
+
+.flip-card-backs {
+background-image: url("intro.jpg");
+background-size: cover;
+     background-position: center;
+  color: White;
+  transform: rotateY(180deg);
+    font-size: 35px;
+font-family: monospace;
+}
+    </style>
+</head>
+<body>
+    <header>
+<img src="K.png" class="pic">
+        <h1>8-Emerald 2023</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/noob%204.0%20p2.html">Home</a></li>
+            <li class="dropdown">
+                <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/noob%20idkk%20but%20continue%20p2.html">Categories</a>
+                <div class="dropdown-content">
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%205.html">Adviser & Co-adviser</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%206.html">Students</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%207.html">Schedule</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%209.html">Subject & Teachers</a>
+                </div>
+            </li>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%203.html">Contact</a></li>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/ok%20p3%20feeback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="maribel.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Adviser</h1>
+<p>Ma'am Maribel M. Arcega</p>
+            </div>
+</div>
+</div>
+    <div class="flip-cards">
+        <div class="flip-card-inners">
+            <div class="flip-card-fronts">
+<img src="chley.jpg">
+            </div>
+            <div class="flip-card-backs">
+<h1>Co-Adviser</h1>
+<p>Ma'am Chley Ferrer Santos</p>
+            </div>
+</div>
+</div>
+    <footer>
+    <nav>
+        <ul>
+            <li><a href="https://web.facebook.com/profile.php?id=61550501432897">Facebook</a></li>
+            <li><a href="https://www.instagram.com/akhyrrarussel?igsh=MXIzMGwwYXJ2bnZobA==">Instagram</a></li>
+            <li><a href="https://twitter.com/AkhyrraJ74901/status/1761027793960509935?t=x825iqXPP7Vv4bOVI6vAjQ&s=19">X</a></li>
+            <li><a href="https://vm.tiktok.com/ZMMewrdkW/">Tiktok</a></li>
+        </ul>
+    </nav>
+        <p><b>&copy; 2024 Unique Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

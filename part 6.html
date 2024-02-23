@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unique Website</title>
+<link rel="icon" href="" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+	    align: center;
+background-color: #EFBBCC;
+        }
+
+
+    header {
+            background-color: #A7D67D;
+            font-family: fantasy;
+            color: black;
+            padding: 3px;
+            text-align: center;
+	    font-size: 18px;
+
+}
+
+.did {
+text-align: center;
+font-size: 15px;
+font-family: monospace;
+border-radius: 5px;
+}
+
+        nav {
+            background-color: #54AC68;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            font-family: fantasy;
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #B1E2C1;
+        }
+
+        .dropdown-content {
+            font-family: fantasy;
+            display: none;
+            position: absolute;
+            background-color:  #54AC68;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            font-family: fantasy;
+            background-color: #ACC9B2;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        footer {
+            background-color: #01A368;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+.flip-card {
+  width: 200px;
+  height: 225px;
+  perspective: 250px;
+  display: inline-block;
+  margin: 10px; 
+margin-left: 10px;
+margin-right: 5px;
+}
+
+.flip-card, .flip-card-inner, .flip-card-front, .flip-card-back {
+position: center;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front img {
+width: 100%;
+height: 100%;
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+     margin-right: 0;
+  color: red;
+}
+.pic {
+width: 8%;
+height: 13%;
+float: left;
+}
+
+.flip-card-back {
+background-image: url("intro.jpg");
+background-size: cover;
+     background-position: center;
+  color: White;
+  transform: rotateY(180deg);
+    font-size: 20px;
+font-family: monospace;
+}
+    </style>
+</head>
+<body>
+    <header>
+<img src="K.png" class="pic">
+        <h1>8-Emerald 2023</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/noob%204.0%20p2.html">Home</a></li>
+            <li class="dropdown">
+                <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/noob%20idkk%20but%20continue%20p2.html">Categories</a>
+                <div class="dropdown-content">
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%205.html">Adviser & Co-adviser</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%206.html">Students</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%207.html">Schedule</a>
+                    <a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%209.html">Subject & Teachers</a>
+                </div>
+            </li>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/part%203.html">Contact</a></li>
+            <li><a href="file:///C:/Users/admin/Desktop/Ict%20folder%20q2%20g8/ICT%20Q3/ok%20p3%20feeback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="rap.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 1</h1>
+<p>Raphael Adriosula</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="chalk.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 2</h1>
+<p>Chalklee Cruz</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="marc.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 3</h1>
+<p>Marc Edrada</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="gamboa.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 4</h1>
+<p>Christoff Gamboa</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="ladz.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 5</h1>
+<p>Ladz Geronimo</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="mig.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 6</h1>
+<p>Miguel Jacinto</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="yuan.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 7</h1>
+<p>Yuan Lauriaga</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="jay.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 8</h1>
+<p>Jay Lising</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="arv.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 9</h1>
+<p>Arvyn Luciano</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="naco.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 10</h1>
+<p>Andrew Naco</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="nar.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 11</h1>
+<p>Philiph Nario</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="nicolas.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 12</h1>
+<p>Ethan Nicolas</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="nuyda.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 13</h1>
+<p>James Nuyda</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="ong.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 14</h1>
+<p>Axel Ong</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="sacdal.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Boy 15</h1>
+<p>Akhyrra Sacdal</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="azriel.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 1</h1>
+<p>Azriel Atabay</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="keyla.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 2</h1>
+<p>Keyla Banaag</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="leigh.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 3</h1>
+<p>Leigh Cruz</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="hanna.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 4</h1>
+<p>Hanna Daluz</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="shaina.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 5</h1>
+<p>Shaina Dela Cruz</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="Nickaiza.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 6</h1>
+<p>Nickaiza Domingo</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="jilian.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 8</h1>
+<p>Jilian Gregorio</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="phiola.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 9</h1>
+<p>Phiola Lacanilao</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="jessie.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 10</h1>
+<p>Jessie Lumibao</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="eyzelle.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 11</h1>
+<p>Eyzelle Moreno</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="rayne.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 12</h1>
+<p>Rayne Palacio</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="marciella.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 13</h1>
+<p>Marciella Ramos</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="eleina.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 14</h1>
+<p>Eleina Relayo</p>
+            </div>
+</div>
+</div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+<img src="sophia.jpg">
+            </div>
+            <div class="flip-card-back">
+<h1>Girl 15</h1>
+<p>Sophia Soledad</p>
+            </div>
+</div>
+</div>
+<br><br><br><br><br>
+    <footer>
+    <nav>
+        <ul>
+            <li><a href="https://web.facebook.com/profile.php?id=61550501432897">Facebook</a></li>
+            <li><a href="https://www.instagram.com/akhyrrarussel?igsh=MXIzMGwwYXJ2bnZobA==">Instagram</a></li>
+            <li><a href="https://twitter.com/AkhyrraJ74901/status/1761027793960509935?t=x825iqXPP7Vv4bOVI6vAjQ&s=19">X</a></li>
+            <li><a href="https://vm.tiktok.com/ZMMewrdkW/">Tiktok</a></li>
+        </ul>
+    </nav>
+        <p><b>&copy; 2024 Unique Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
